@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Planetas del Sistema Solar</title>
+  <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+  <header>
+    <h1>🌌 Sistema Solar Interactivo</h1>
+    <nav>
+      <button class="tab-btn active" data-tab="tierra">Tierra</button>
+      <button class="tab-btn" data-tab="marte">Marte</button>
+      <button class="tab-btn" data-tab="saturno">Saturno</button>
+      <button class="tab-btn" data-tab="sol">Sol</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tierra" class="tab-content active">
+      <h2>🌍 Tierra</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Tierra">
+      <p>La Tierra es el tercer planeta del sistema solar y el único conocido con vida.</p>
+      <ul>
+        <li>Distancia al Sol: ~149,6 millones de km</li>
+        <li>Un día dura 24 horas</li>
+        <li>70% de su superficie está cubierta de agua</li>
+      </ul>
+      <a href="https://es.wikipedia.org/wiki/Tierra" target="_blank">Ver más en Wikipedia</a>
+    </section>
+
+    <section id="marte" class="tab-content">
+      <h2>🔴 Marte</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Marte">
+      <p>Marte es conocido como el "planeta rojo" por el óxido de hierro en su superficie.</p>
+      <ul>
+        <li>Tiene el volcán más grande del sistema solar: Olympus Mons</li>
+        <li>Días similares a los de la Tierra: 24.6 horas</li>
+        <li>Temperaturas bajo cero casi siempre</li>
+      </ul>
+      <a href="https://es.wikipedia.org/wiki/Marte_(planeta)" target="_blank">Ver más en Wikipedia</a>
+    </section>
+
+    <section id="saturno" class="tab-content">
+      <h2>🪐 Saturno</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg" alt="Saturno">
+      <p>Saturno es famoso por su sistema de anillos visibles, formados por hielo y polvo.</p>
+      <ul>
+        <li>Segundo planeta más grande del sistema solar</li>
+        <li>Tiene más de 80 lunas</li>
+        <li>Es un gigante gaseoso</li>
+      </ul>
+      <a href="https://es.wikipedia.org/wiki/Saturno_(planeta)" target="_blank">Ver más en Wikipedia</a>
+    </section>
+
+    <section id="sol" class="tab-content">
+      <h2>☀️ Sol</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Sun_white.jpg" alt="Sol">
+      <p>El Sol es una estrella que proporciona energía vital a todo el sistema solar.</p>
+      <ul>
+        <li>Composición: hidrógeno (74%) y helio (24%)</li>
+        <li>Edad: ~4.6 mil millones de años</li>
+        <li>Su gravedad mantiene a todos los planetas en órbita</li>
+      </ul>
+      <a href="https://es.wikipedia.org/wiki/Sol" target="_blank">Ver más en Wikipedia</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Marcelo Ramírez</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
